@@ -3,7 +3,7 @@ package com.constructor;
 public class BookMain {
 	 public static void main(String[] args) {
 
-	        new LibraryBook();
-	        new LibraryBook("Java Programming", "James Gosling");
+	       LibraryBook l =  new LibraryBook();
+	       LibraryBook l1 =  new LibraryBook("Java Programming", "James Gosling");
 	    }
 }
